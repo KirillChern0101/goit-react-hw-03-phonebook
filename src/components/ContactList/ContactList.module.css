@@ -1,0 +1,26 @@
+.contactListItemBtn {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  align-items: right;
+  background: linear-gradient(to right, #ff6347, #ff4500);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  flex-grow: 1;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  height: 36px;
+  line-height: 20px;
+  margin-left: 8px;
+  margin-right: 6px;
+  min-width: 50px;
+  padding: 0 16px 0 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contactListItemBtn:hover {
+  background: linear-gradient(to right, #ff4500, #ff6347);
+  background-color: rgba(23, 26, 32, 1);
+  box-shadow: 0px 0px 6px 2px rgba(255, 55, 55, 0.5);
+}
